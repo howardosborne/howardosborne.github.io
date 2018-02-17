@@ -14,7 +14,7 @@ github_username:  howardosborne
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: midmight
 #plugins:
 #  - jekyll-feed
 
