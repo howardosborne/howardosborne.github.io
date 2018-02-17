@@ -14,7 +14,7 @@ github_username:  howardosborne
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-merlot
+theme: jekyll-theme-midnight
 #plugins:
 #  - jekyll-feed
 
