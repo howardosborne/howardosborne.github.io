@@ -640,9 +640,9 @@ button:focus {
 }
 
 /* ==========================================================================
-  6. Features Section Style
+  6. Performance Section Style
    ========================================================================== */
-#features {
+#performance {
   background: url(../img/bg1.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -650,15 +650,15 @@ button:focus {
   position: relative;
 }
 
-#features .section-title {
+#performance .section-title {
   color: #fff;
 }
 
-#features .section-subtitle {
+#performance .section-subtitle {
   color: #fff;
 }
 
-#features .icon {
+#performance .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -668,11 +668,11 @@ button:focus {
   z-index: 1;
 }
 
-#features .box-item {
+#performance .box-item {
   padding: 15px 0;
 }
 
-#features .box-item .icon {
+#performance .box-item .icon {
   border: 1px solid #61D2B4;
   text-align: center;
   float: left;
@@ -682,7 +682,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .icon i {
+#performance .box-item .icon i {
   color: #61D2B4;
   font-size: 24px;
   line-height: 60px;
@@ -692,11 +692,11 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text {
+#performance .box-item .text {
   padding-left: 80px;
 }
 
-#features .box-item .text h4 {
+#performance .box-item .text h4 {
   color: #61D2B4;
   font-weight: 700;
   font-size: 16px;
@@ -704,24 +704,191 @@ button:focus {
   line-height: 22px;
 }
 
-#features .box-item .text p {
+#performance .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features .box-item:hover .icon {
+#performance .box-item:hover .icon {
   background: #61D2B4;
 }
 
-#features .box-item:hover .icon i {
+#performance .box-item:hover .icon i {
   color: #ffffff;
 }
 
-#features .show-box img {
+#performance .show-box img {
   position: absolute;
   bottom: -120px;
 }
 
+
+/* ==========================================================================
+  6. Automation Section Style
+   ========================================================================== */
+   #automation {
+    background: url(../img/videobg.jpg) fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #automation .section-title {
+    color: #fff;
+  }
+  
+  #automation .section-subtitle {
+    color: #fff;
+  }
+  
+  #automation .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  #automation .box-item {
+    padding: 15px 0;
+  }
+  
+  #automation .box-item .icon {
+    border: 1px solid #61D2B4;
+    text-align: center;
+    float: left;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  #automation .box-item .icon i {
+    color: #61D2B4;
+    font-size: 24px;
+    line-height: 60px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  #automation .box-item .text {
+    padding-left: 80px;
+  }
+  
+  #automation .box-item .text h4 {
+    color: #61D2B4;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+  }
+  
+  #automation .box-item .text p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  
+  #automation .box-item:hover .icon {
+    background: #61D2B4;
+  }
+  
+  #automation .box-item:hover .icon i {
+    color: #ffffff;
+  }
+  
+  #automation .show-box img {
+    position: absolute;
+    bottom: -120px;
+  }
+  
+/* ==========================================================================
+  6. Training Section Style
+   ========================================================================== */
+   #training {
+    background: url(../img/testimonial-bg.jpg) fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #training .section-title {
+    color: #fff;
+  }
+  
+  #training .section-subtitle {
+    color: #fff;
+  }
+  
+  #training .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  #training .box-item {
+    padding: 15px 0;
+  }
+  
+  #training .box-item .icon {
+    border: 1px solid #61D2B4;
+    text-align: center;
+    float: left;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  #training .box-item .icon i {
+    color: #61D2B4;
+    font-size: 24px;
+    line-height: 60px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  #training .box-item .text {
+    padding-left: 80px;
+  }
+  
+  #training .box-item .text h4 {
+    color: #61D2B4;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+  }
+  
+  #training .box-item .text p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  
+  #training .box-item:hover .icon {
+    background: #61D2B4;
+  }
+  
+  #training .box-item:hover .icon i {
+    color: #ffffff;
+  }
+  
+  #training .show-box img {
+    position: absolute;
+    bottom: -120px;
+  }
+  
 /* ==========================================================================
   7. Video promo Style
    ========================================================================== */
