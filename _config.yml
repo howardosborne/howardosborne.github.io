@@ -2,9 +2,7 @@ title: Howard Osborne Consulting
 author: Howard Osborne
 email: hosborne@hotmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  I specialise in performance and automated testing:
-that means designing test systems, implementation, health-checks, training and consultancy as well as management and oversight of performance and automation projects.
-Want to go through a problem or just get some advice? - Happy to talk it through...
+  Specialist in performance analysis and testing
 show_excerpts: true # set to true to show excerpts on the homepage
 remote_theme: thelehhman/texture
 #baseurl: /texture
@@ -21,7 +19,7 @@ texture:
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
-  showPicker: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
