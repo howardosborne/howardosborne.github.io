@@ -1,0 +1,42 @@
+title: Howard Osborne Consulting
+author: Howard Osborne
+email: hosborne@hotmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  I specialise in performance and automated testing:
+that means designing test systems, implementation, health-checks, training and consultancy as well as management and oversight of performance and automation projects.
+Want to go through a problem or just get some advice? - Happy to talk it through...
+show_excerpts: true # set to true to show excerpts on the homepage
+baseurl: /texture
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Howard Osborne
+  tagline: Performance and Automation specialist
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: false
+  showPicker: true
+
+  # generate social links in footer
+  social_links:
+    github:  howardosborne
+    linkedIn: in/howard-osborne
+    rss: rss
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
