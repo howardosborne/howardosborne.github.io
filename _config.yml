@@ -1,8 +1,6 @@
 # Site settings
 title: Howard Osborne
-description: 'Performance and automation consultant <br /><br />
-Testing | Investigation and optimisation | Training | Health checks
-'
+description: 'Performance and automation consultant'
 url: 'http://howardosborne.github.io'
 baseurl: ''
 google_analytics: 'UA-157366927-1'
