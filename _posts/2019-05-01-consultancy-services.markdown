@@ -5,12 +5,17 @@ description: What I do.
 date:   2019-05-01 09:00:00 +0000
 categories: Training Testing Investigtion 
 ---
-I specialise in improving the quality of software and infrastrucutre by providing:
+I specialise in improving the quality of software and infrastrucutre by doing the following things:
 
 #### Performance testing
-I work with a wide range of technologies depending on providing the best fit.
+I can help make sure that your solution will scale well. If it doesn't, I'll help identify where the issues are and help resolve them. Of course, it's better if they don't happen in the first place, so I'll help you to bake good practie into the design, development and test process.
 
-It's usually good to work with tools that are widely known and supported, which is why JMeter often comes out on top.
+I have worked with a wide range of technologies and recommend using whatever makes the best fit for your organisation.
+
+Nevertheless, it's usually good to work with tools that are widely known and supported, which is why JMeter often comes out on top.
+
+However, a tool to execute tests is only part of the picture. Additional bits and pieces are usually need to be made to analyse, monitor and build test environments.
+
 
 But sometimes, other tools are more suitable and occasionally, there is only one choice - make the right tool for the job.
 
