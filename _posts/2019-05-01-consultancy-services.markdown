@@ -10,7 +10,7 @@ I specialise in optimising software quality and the infrastructre it's deployed 
 ### Performance testing
 I help organisations identify performance issues and how they can resolve them by introducing good performance testing practice.
 
-Want to learn more about [performance testing?](2019/performance-testing/)
+Want to learn more about [performance testing?](../performance-testing/)
 
 ### Automation
 Providing simple, reliable automation that won't give you a maintnence headache
