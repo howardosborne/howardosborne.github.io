@@ -13,16 +13,15 @@ I help organisations identify performance issues and how they can resolve them b
 Want to learn more about [performance testing?](../performance-testing/)
 
 ### Automation
-Providing simple, reliable automation that won't give you a maintnence headache
-Using the tools that are best for the job and the team.
+The automation graveyard is full of well meaning projects. I can help by providing simple, reliable automation that won't give you a maintnence headache - all using the tools that are best for the job and the team.
 
 ### Investigation and optimisation
-If you know you have a problem but don't know where to start, together we can work through how to turn around poor performance and unreliability
+If you know you have a problem but don't know where to start, together we can work through how to turn around poor performance and unreliability.
 
 ### Training
-Getting people up to speed so they can work with confidence and take your systems to new levels
+I can help get people up to speed so they can work with confidence and take your systems to new levels.
 
 ### Management
-I've had to builds teams and provide leadership with a strong emphasis on mentoring.
+I've built teams and provided leadership with a strong emphasis on mentoring.
 
 Want to go through a problem or just get some advice? - Happy to talk it through...
