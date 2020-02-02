@@ -5,19 +5,19 @@ description: How to make BDD regression tests work across environments.
 date:   2019-05-23 21:03:36 +0530
 categories: BDD Gherkin
 ---
-Whilst I can understand Aslak Hellesøy's frustration in is article on the misuse of Behaviour Driven Development tools like Cucumber, isn't it inevitable that organisations which have invested in BDD will want the resulting assets to be as widely used as possible?
+I have a lot of sympathy for Behaviour Driven Development champions who get frustrated at the misuse of tools like Cucumber. However, isn't it inevitable that organisations which have invested in BDD will want the resulting assets to be as widely used as possible?
 
-However, there are some issues worth thinking about. The structure of flat feature files, written in Gherkin, is great but one of its main strengths, having a simple clear editable-by-anyone format, can also present issues with scalability and maintenance when reusing the scenarios for regression testing. Let's take an example:
+The structure of flat feature files, written in Gherkin, is great but one of its main strengths, having a simple clear editable-by-anyone format, can also present issues with scalability and maintenance when reusing the scenarios for regression testing. Let's take an example:
 
 Imagine we are testing a web form which allows people to renew their account. The form contains the following fields:
-
+```
 First name
 Surname
 Account ID
 Postcode
 Debit card number
 Expiry Date
-
+```
 Our feature file which was used to develop the form is below and contains two scenarios. one which specifies what happens for a successful renewal and another which sets out what error messages should appear for the different types renewal failure.
 ```
 Feature: Apply for account renewal
@@ -25,16 +25,6 @@ Feature: Apply for account renewal
   Users should be able to
   complete a form with their details
 
-Scenario: successful renewal
-    Given I am on the account renewal form
-    When I enter "Bob" in the Firstname field
-    And "Jones" in the Surname field
-    And "Acc12345" in the Account ID field
-    And "AB12 1AT" in the postcode field
-    And "342523523535252" in the Debit card field
-    And "01/16" in the Expiry Date field
-    And click "Renew Account"
-    Then I see "Account renewed"
 Scenario Outline: unsuccessful renewal
     Given I am on the account renewal form
     When I enter "Bob" in the Firstname field
