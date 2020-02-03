@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Using mandolin on gherkin"
+title:  "Using Mandolin on Gherkin"
 description: How to make BDD regression tests work across environments.
 date:   2019-05-23 21:03:36 +0530
 categories: BDD Gherkin
 ---
 I have a lot of sympathy for Behaviour Driven Development champions who get frustrated at the misuse of tools like Cucumber. However, isn't it inevitable that organisations which have invested in BDD will want the resulting assets to be as widely used as possible?
 
-The structure of flat feature files, written in Gherkin, is great but one of its main strengths, having a simple clear editable-by-anyone format, can also present issues with scalability and maintenance when reusing the scenarios for regression testing. Let's take an example:
+The structure of flat feature files, written in Gherkin, is great but one of its main strengths, having a simple clear editable-by-anyone format, can also present issues with scalability and maintenance when reusing the scenarios for regression testing.
+
+Let's take an example:
 
 Imagine we are testing a web form which allows people to renew their account. The form contains the following fields:
 ```
