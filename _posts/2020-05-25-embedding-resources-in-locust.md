@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How to include embedded resources in Locust"
-description: How to include embedded resources in Locust
+title:  "Including embedded resources"
+description: How to include embedded resources in Locust performance tests
 date:   2020-05-25 18:00:00 +0000
 categories: performance locust JMeter
 ---
@@ -12,7 +12,7 @@ For JMeter users, there are a number of features that don’t come with Locust b
 
 One of those useful features in JMeter is the option to retrieve embedded resources.
 
-![JMeter Embedded Resources](./images/jmeter_screenshot.png "JMeter Embedded Resources")
+![JMeter Embedded Resources](../../images/jmeter_screenshot.png "JMeter Embedded Resources")
 
 By default, JMeter uses the [Lagarto HTML Parser](https://jodd.org/lagarto/) to obtain resources and if you have been using it, you’ll realise that whilst it isn’t perfect, it is a good enough approximation to a full-fat browser to be effective.
 
@@ -111,6 +111,6 @@ name=name+"_resources"
 ```
 When we run it, we get a breakdown like this
 
-![Locust Dashboard](./images/locust_dashboard.png "Locust Dashboard")
+![Locust Dashboard](../../images/locust_dashboard.png "Locust Dashboard")
 
 If you would like any more information, just let me know.
